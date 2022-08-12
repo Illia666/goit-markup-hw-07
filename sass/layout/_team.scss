@@ -1,68 +1,66 @@
 .team {
-    background: #f5f4fa;
-  }
-  
-  .team-item {
-    background-color: var(--text-primary-color);
-  }
-  
-  .employees {
-    margin-top: 50px;
-    display: flex;
-    gap: 30px;
-  }
-  
-  .employees-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    color: var(--title-color);
-    margin-bottom: 10px;
-    padding-top: 30px;
-  }
-  
-  .employees-position {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    margin-bottom: 16px;
-  }
-  
-  .team-social-list {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    margin: 0px;
-    padding-bottom: 30px;
-  }
-  
-  .team-social-item {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .team-social-link {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    fill: var(--icon-color);
-    transition: background-color var(--transition-dur-and-func),
-      fill var(--transition-dur-and-func);
-  }
-  
-  .team-social-link:hover,
-  .team-social-link:focus {
+  background: #f5f4fa;
+}
+
+.team-item {
+  background-color: var(--text-primary-color);
+}
+
+.employees {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+.employees-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--title-color);
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+
+.employees-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.team-social-list {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 0px;
+  padding-bottom: 30px;
+}
+
+.team-social-item {
+  display: flex;
+  justify-content: center;
+}
+
+.team-social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--icon-color);
+  transition: background-color var(--transition-dur-and-func),
+    fill var(--transition-dur-and-func);
+  &:hover,
+  &:focus {
     fill: var(--text-primary-color);
     background: var(--active-color);
   }
-  
-  .team-social-icon {
-    width: 20px;
-    height: 20px;
-  }
-  
+}
+
+.team-social-icon {
+  width: 20px;
+  height: 20px;
+}

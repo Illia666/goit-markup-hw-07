@@ -1,13 +1,13 @@
 .projects-title {
-    font-size: 0;
-    color: transparent;
-  }
-  .filter-list {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-  }
-  .filter-item:not(:last-child) {
-    margin-right: 8px;
-  }
+  font-size: 0;
+  color: transparent;
+}
+.filter-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.filter-item:not(:last-child) {
+  margin-right: 8px;
+}
