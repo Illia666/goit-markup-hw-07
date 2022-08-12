@@ -411,7 +411,13 @@ body {
   position: relative;
   color: var(--active-color);
 }
-.menu-item::after {
+.menu-item.active, .menu-item:focus, .menu-item:hover,
+.menu-item .contact:focus,
+.menu-item .contact:hover {
+  color: var(--active-color);
+}
+
+.menu-item.active::after {
   content: "";
   display: block;
   width: 100%;
@@ -422,11 +428,6 @@ body {
   display: block;
   left: 0;
   bottom: 0;
-}
-.menu-item.active, .menu-item:focus, .menu-item:hover,
-.menu-item .contact:focus,
-.menu-item .contact:hover {
-  color: var(--active-color);
 }
 
 .menu-list,
