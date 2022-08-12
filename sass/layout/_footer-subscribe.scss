@@ -1,0 +1,100 @@
+.form-subscribe .form-field {
+    margin-right: 12px;
+  }
+  
+  .form-subscribe .form-input {
+    min-width: 358px;
+    padding: 16px 15px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--background);
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: border var(--transition-dur-and-func);
+  }
+  
+  .form-subscribe .form-input:focus {
+    outline: none;
+    border: 1px solid var(--active-color);
+  }
+  
+  .form-subscribe .form-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .footer-title {
+    margin-bottom: 20px;
+  
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  
+    color: var(--background);
+  }
+  
+  .form-subscribe .offer {
+    margin-bottom: 20px;
+  
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+  
+    color: var(--background);
+  }
+  
+  .form-subscribe-fields {
+    display: flex;
+    border: none;
+    padding: 0;
+  }
+  .form-subscribe .form-field {
+    margin-right: 12px;
+  }
+  
+  .form-subscribe .form-input {
+    min-width: 358px;
+    padding: 16px 15px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--background);
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: border var(--transition-dur-and-func);
+  }
+  
+  .form-subscribe .form-input:focus {
+    outline: none;
+    border: 1px solid var(--active-color);
+  }
+  
+  .form-subscribe .form-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .form-subscribe .button-submit {
+    border: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.81;
+    background-color: var(--active-color);
+    color: var(--text-primary-color);
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 29px;
+    box-shadow: 0px 4px 4px rgba(230, 13, 13, 0.15);
+    border-radius: 4px;
+    transition: background-color var(--transition-dur-and-func);
+  }
+  
