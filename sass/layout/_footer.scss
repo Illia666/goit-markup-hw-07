@@ -5,23 +5,26 @@
 }
 
 .maps-go {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(400, 16px, 24px);
   color: var(--text-primary-color);
 }
 
-.mail-link-footer,
-.phone-number-footer {
+.footer__list-mail,
+.footer__list-phone {
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--transition-dur-and-func);
 }
+.mail-link:hover,
+.mail-link:focus,
+.footer__list-mail:hover,
+.footer__list-mail:focus {
+  color: var(--active-color);
+}
 
-.logo-footer {
+.footer__logo {
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
+  @include font(700, 26px, 31px);
+
   color: var(--text-primary-color);
   display: block;
   margin-bottom: 20px;
@@ -31,19 +34,19 @@
   font-style: normal;
 }
 
-.footer-contact {
+.address__contact {
   align-items: baseline;
 }
 
-.footer-list :last-of-type {
+.footer__list :last-of-type {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-.footer-list:not(:last-child) {
+.footer__list:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer-address-social {
+.footer__address-social {
   display: flex;
   align-items: baseline;
   justify-content: space-between;

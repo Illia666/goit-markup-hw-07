@@ -1,22 +1,20 @@
-.clients-list {
+.clients {
   display: flex;
   justify-content: center;
   gap: 30px;
   margin-top: 50px;
 }
 
-.clients-list-item {
+.clients__item {
   width: calc((100% - 150px) / 6);
 }
 
-.clients-link {
-  display: flex;
+.clients__link {
+  @extend %align;
   flex-wrap: wrap;
   height: 92px;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  align-content: center;
-  justify-content: center;
   fill: var(--icon-color);
   transition: fill var(--transition-dur-and-func),
     border var(--transition-dur-and-func);

@@ -1,20 +1,18 @@
-.social-title {
+.social__title {
   margin-bottom: 20px;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(700, 14px, 16px);
+
   text-transform: uppercase;
   font-style: normal;
   color: var(--background);
 }
 
-.social-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.social__list {
+  @extend %align;
   gap: 10px;
 }
 
-.social-list-item {
+.social__list-item {
   display: flex;
   flex-wrap: wrap;
   width: 44px;
@@ -23,14 +21,12 @@
   background: var(--icon-bg-color);
 }
 
-.social-link {
+.social__link {
+  @extend %align;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  display: flex;
   flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
   fill: var(--text-primary-color);
   transition: background-color var(--transition-dur-and-func),
     fill var(--transition-dur-and-func);
@@ -40,7 +36,7 @@
   }
 }
 
-.social-item-logo {
+.social__link-logo {
   width: 20px;
   height: 20px;
 }

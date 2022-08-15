@@ -16,15 +16,13 @@
   background-size: cover;
 }
 
-.main-title {
+.hero__title {
   margin-top: 0;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 696px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  @include font(900, 44px, 60px);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
