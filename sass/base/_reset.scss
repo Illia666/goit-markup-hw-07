@@ -22,19 +22,15 @@ img {
 button {
   cursor: pointer;
 }
-
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  color: var(--text-color);
-  background-color: var(--background);
-}
-
 .list {
   list-style: none;
 }
 
 .link {
   text-decoration: none;
-}/*# sourceMappingURL=common.css.map */
+}
+
+.button__active.active{
+background-color: var(--active-color);
+color: var(--text-primary-color);
+}

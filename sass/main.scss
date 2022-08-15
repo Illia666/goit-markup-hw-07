@@ -6,14 +6,16 @@
 
 
 @import './base/common';
-@import './base/section';
-@import './base/container';
+@import './base/reset';
+
 
 @import './components/button';
-@import './components/section__title';
+@import './components/section-title';
 @import './components/backdrop';
 @import './components/modal-form';
 @import './components/filter';
+@import './components/section';
+@import './components/container';
 
 @import './layout/header';
 @import './layout/hero';

@@ -32,6 +32,14 @@
   justify-content: center;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  background-color: var(--background);
+}
+
 h1,
 h2,
 h3,
@@ -57,14 +65,6 @@ button {
   cursor: pointer;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  color: var(--text-color);
-  background-color: var(--background);
-}
-
 .list {
   list-style: none;
 }
@@ -73,16 +73,9 @@ body {
   text-decoration: none;
 }
 
-.section {
-  padding: 94px 0;
-}
-
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+.button__active.active {
+  background-color: var(--active-color);
+  color: var(--text-primary-color);
 }
 
 .modal-btn {
@@ -374,6 +367,18 @@ body {
   margin-right: 8px;
 }
 
+.section {
+  padding: 94px 0;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .page-header .contact-link {
   color: var(--text-color);
 }
@@ -410,17 +415,17 @@ body {
   padding-bottom: 32px;
   transition: color var(--transition-dur-and-func);
 }
-.menu__item.active {
+.menu__item.current {
   position: relative;
   color: var(--active-color);
 }
-.menu__item.active, .menu__item:focus, .menu__item:hover,
+.menu__item.current, .menu__item:focus, .menu__item:hover,
 .menu__item .contact:focus,
 .menu__item .contact:hover {
   color: var(--active-color);
 }
 
-.menu__item.active::after {
+.menu__item.current::after {
   content: "";
   display: block;
   width: 100%;
@@ -502,6 +507,10 @@ body {
   display: flex;
   align-items: center;
   margin-left: auto;
+}
+
+.header {
+  border: 1px solid #ECECEC;
 }
 
 .hero {

@@ -32,12 +32,12 @@
   padding-bottom: 32px;
   transition: color var(--transition-dur-and-func);
 
-  &.active {
+  &.current {
     position: relative;
     color: var(--active-color);
   }
 
-  &.active,
+  &.current,
   &:focus,
   &:hover,
   .contact:focus,
@@ -46,7 +46,7 @@
   }
 }
 
-.menu__item.active::after {
+.menu__item.current::after {
   content: "";
   display: block;
   width: 100%;
@@ -127,6 +127,6 @@
   margin-left: auto;
 }
 
-.page-header{
+.header{
   border: 1px solid #ECECEC;
 }
